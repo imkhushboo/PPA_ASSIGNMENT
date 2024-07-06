@@ -1,136 +1,77 @@
----
-# Project README
-## Deployed Link:https://nexcent-khushboo.vercel.app/
-## 📘 Next.js Application with Tailwind CSS, Zustand, ShadCN, and Context API
-
-This project is a comprehensive web application built using modern web technologies including Next.js, Tailwind CSS, Zustand, ShadCN, and Context API. The application showcases a well-structured and responsive design, optimized for various screen sizes ranging from mobile devices to 4k screens. The implementation emphasizes readability, scalability, and maintainability.
-### 👨‍💻 Developed by: Khushboo
----
-
-## 📂 Folder Structure
-
-```
-project-root
-├── context
-│   └── ThemeContext.tsx
-├── public
-│   └── (all images)
-├── sections
-│   ├── Clients.tsx
-│   ├── Design.tsx
-│   ├── Marketing.tsx
-│   └── (other sections)
-├── src
-│   ├── app
-│   │   ├── page.tsx
-│   │   ├── layout.tsx
-│   │   └── (additional styles)
-│   ├── components
-│   │   ├── Navbar
-│   │   ├── Card
-│   │   ├── DarkModeToggle
-│   │   └── (additional components)
-│   ├── lib
-│   │   └── util.ts (ShadCN configuration)
-│   └── store
-│       └── themeStore.ts (Zustand setup)
-└── README.md
-
-```
+Here's a descriptive README for your Nexcent application:
 
 ---
 
-## 🚀 Implemented Features
+# Nexcent Application
 
-1. Dark Mode Toggle
+## Overview
+This project aims to create a responsive website based on the provided Figma design, utilizing Next.js for server-side rendering, Tailwind CSS for styling, Zustand for state management, and ShadCN for animations.
 
-   - Implemented using both Zustand and Context API due to version compatibility issues.
-   - The toggle allows users to switch between light and dark themes seamlessly.
+## Features
 
-2. Count-Up Animation
+1. **Light and Dark Mode Toggle**
+   - Implement a toggle in the header for switching between light and dark themes.
 
-   - Added to the section titled "Helping a local business reinvent itself" using the react-countup library.
-   - Provides an engaging visual effect that highlights key metrics.
+2. **Responsive Design**
+   - Ensure the website is responsive across all devices, from mobile (320px) to large screens (4k).
 
-3. Responsive Design
+3. **Carousel for First Section**
+   - Integrate a carousel for the main heading section, allowing smooth sliding transitions.
 
-   - Ensures the UI looks appealing across all screen sizes, from mobile (320px) to 4k resolutions.
-   - The design is flexible, allowing for adjustments to ensure a good appearance on mobile devices.
+4. **Count-Up Animation**
+   - Implement a count-up animation in the statistics section, starting from 0 and reaching the desired end value.
 
-4. Working Carousel
-   - Implemented a carousel in the first section to enhance the user experience with smooth transitions and interactive content.
 
----
+## Technologies Used
+- **Next.js**: React framework for server-side rendering.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Zustand**: Lightweight state management for React.
+- **ShadCN**: Animation library for smooth transitions and effects.
 
-## 🛠 Technologies Used
+## Installation
 
-- Next.js: A React framework for building server-side rendered and statically generated websites.
-- Tailwind CSS: A utility-first CSS framework for rapid UI development.
-- Zustand: A small, fast, and scalable bearbones state management solution.
-- ShadCN: A set of customizable components built on Tailwind CSS.
-- Context API: Used for state management, particularly for the dark mode toggle.
-- react-countup: A React component used for animating numerical values.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your/repository.git
+   ```
 
----
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## 📑 Sections and Components
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-### Sections
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- Clients: Displays client logos and testimonials.
-- Manage: Features content and cards related to membership management.
-- Pixelgrade: Showcases specific content sections.
-- BusinessStats: Displays business statistics with engaging animations.
-- Design: Highlights design-related content and tips.
-- MeetAllCustomers: Lists customer feedback and client logos.
-- Marketing: Provides marketing insights and strategies.
-- Demo: A call-to-action section encouraging users to get a demo.
+## Usage
 
-### Components
+- Toggle between light and dark mode using the button in the header.
+- Explore the responsive design across different devices.
+- Experience the carousel functionality in the main heading section.
+- Observe the count-up animation in the statistics section.
 
-- NavbarComponent: The navigation bar at the top of the page.
-- FooterComponent: The footer section of the page.
-- Hero: The hero section with a prominent message and call-to-action button.
-- ManageCard: Custom card component for displaying management-related information.
-- BlogCard: Card component for displaying blog entries.
+## Images: 
+![count_up](https://github.com/imkhushboo/PPA_ASSIGNMENT/assets/66317974/07807742-3987-4160-b234-028a866e6d67)
+![dark_mode](https://github.com/imkhushboo/PPA_ASSIGNMENT/assets/66317974/d8961354-68f4-409e-8dad-50b328e4b9d3)
+![home_page](https://github.com/imkhushboo/PPA_ASSIGNMENT/assets/66317974/6305b3a1-ffd6-40f6-a2c2-d1cd47fcf39a)
 
----
+## Contributing
 
-## 🖼 Preview
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Create a new Pull Request.
 
-### Light Mode
+## License
 
-![Screenshot (486)](https://github.com/RIOLOG/PPA-Assignment/assets/84015430/fd387081-c4cf-4494-b0f4-9d114d032aab)
-
-### Dark Mode
-
-![Screenshot (487)](https://github.com/RIOLOG/PPA-Assignment/assets/84015430/26d8f62c-4a6b-4a3c-b563-62c8d7d81434)
-
-### Count-Up Animation
-
-![Screenshot (488)](https://github.com/RIOLOG/PPA-Assignment/assets/84015430/f44d00f0-dce4-402f-9d63-9d6b1f565015)
-
-### Responsive design and working carousel
-
-![Screenshot (489)](https://github.com/RIOLOG/PPA-Assignment/assets/84015430/fef51a27-e85b-43c9-8148-ea292396cc82)
-![Screenshot (490)](https://github.com/RIOLOG/PPA-Assignment/assets/84015430/c18edabd-4cd5-448b-aefb-9381b5b9b87f)
-
-### Carousel
-
-![Screenshot (491)](https://github.com/RIOLOG/PPA-Assignment/assets/84015430/86bda829-918a-4854-a94d-57c4e057201e)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📜 Conclusion
+Feel free to adjust the sections or add more details specific to your project's structure and setup.
 
-This project demonstrates the effective use of modern web development technologies to create a responsive and interactive web application. The implementation of features such as dark mode, count-up animations, and a carousel enhances the user experience, making the application both functional and visually appealing.
-
----
-
-## 📬 Contact
-
-For any inquiries or feedback, please contact Khushboo at [vkhushboo540@gmail.com](mailto:vkhushboo540@gmail.com).
-
----
-
-Thank you for exploring this project!
