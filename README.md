@@ -2,7 +2,8 @@ Here's a descriptive README for your Nexcent application:
 
 ---
 
-# Nexcent Application
+# Nexcent Application(https://nexcent-khushboo.vercel.app/)
+
 
 ## Overview
 This project aims to create a responsive website based on the provided Figma design, utilizing Next.js for server-side rendering, Tailwind CSS for styling, Zustand for state management, and ShadCN for animations.
