@@ -1,6 +1,6 @@
 ---
 # Project README
-## Deployed Link:
+## Deployed Link:https://nexcent-khushboo.vercel.app/
 ## 📘 Next.js Application with Tailwind CSS, Zustand, ShadCN, and Context API
 
 This project is a comprehensive web application built using modern web technologies including Next.js, Tailwind CSS, Zustand, ShadCN, and Context API. The application showcases a well-structured and responsive design, optimized for various screen sizes ranging from mobile devices to 4k screens. The implementation emphasizes readability, scalability, and maintainability.
